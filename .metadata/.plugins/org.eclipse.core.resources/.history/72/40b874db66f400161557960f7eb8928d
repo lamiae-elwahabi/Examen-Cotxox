@@ -1,0 +1,25 @@
+package org.foobarspam.cotxox.carrera;
+
+public class Carrera {
+	//-----Propiedades----
+	private int tiempoEsperado = 0;
+	private int tiempoCarrera = 0;
+	private double costeTotal = 0d;
+	private String nombreConductor = "";
+	
+	//----Constructores-----
+	
+	Public Carrera (){
+		
+	}
+	Public Carrera ( int tiempoEsperado, int tiempoCarrera, double costeTotal, String nombreConductor){
+		this.tiempoEsperado = tiempoEsperado;
+		this.tiempoCarrera = tiempoCarrear;
+		this.costeTotal = costeTotal;
+		
+	}
+	
+	
+	
+
+}

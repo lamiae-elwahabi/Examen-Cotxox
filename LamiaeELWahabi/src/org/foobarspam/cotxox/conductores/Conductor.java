@@ -1,0 +1,26 @@
+package org.foobarspam.cotxox.conductores;
+
+public class Conductor {
+	//----Propiedades-----
+	private String nombre = "";
+	private String modelo = "";
+	private String matricula = "";
+	private int valoracionMedia = 0;
+	private Valoraciones[]numeroValoracion = new Valoracion[numeroValoraciones];
+	private Boolean ocupado = false;
+	
+	//----Constructor----
+	public Conductor(){
+		
+	}
+	public Conductor(String nombre, String modelo, String matricula, int valoracionMedia, Boolean ocupado){
+		this.nombre = nombre;
+		this.modelo = modelo;
+		this.matricula = matricula;
+		this.valoracionMedia = valoracionMedia;
+		this.numeroValoracion = new Valoracion[numeroValoraciones];
+		this.ocupado = ocupado;
+		
+	}
+	//-----Getters y Setters
+}
